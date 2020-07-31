@@ -7,19 +7,22 @@ import { createLogger } from 'redux-logger';
 import 'tachyons';
 
 import App from './App';
+import * as serviceWorker from './serviceWorker';
 import { requestRobots, searchRobots } from './redux/reducers'
 
 import './index.css';
 
 const logger = createLogger()
 
-const rootReducers = combineReducers({requestRobots, searchRobots})
+const rootReducers = combineReducers({ requestRobots, searchRobots })
 
 const store = createStore(rootReducers, applyMiddleware(thunkMiddleware, logger))
 
 ReactDOM.render(
   <Provider store={store}>
-    <App/>
+    <App />
   </Provider>,
   document.getElementById('root')
 );
+
+serviceWorker.register();
