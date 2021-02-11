@@ -3,6 +3,8 @@
 This is a Basic React App able to look for items in a data collection.
 Implemented to be working with Redux sinchronously.
 
+[Open Live Project](https://ale917k.github.io/robofriends/)
+
 ## What It Uses:
 
 - React
