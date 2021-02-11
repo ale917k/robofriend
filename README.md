@@ -1,4 +1,4 @@
-# Robofriend
+# Robofriends
 
 This is a Basic React App able to look for items in a data collection.
 Implemented to be working with Redux sinchronously.
