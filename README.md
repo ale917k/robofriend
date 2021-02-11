@@ -1,19 +1,29 @@
-# robofriend-redux
-This is a Basic React App able to look for items in a data collection.
-It is implemented Sinchronously to be working with Redux
+# Robofriend
 
-It uses:
+This is a Basic React App able to look for items in a data collection.
+Implemented to be working with Redux sinchronously.
+
+## What It Uses:
+
 - React
 - Redux
-- Node.js
 - JSON
 - Ajax
+- Jest & Enzyme
 - NO DATABASE
-
 - tachyons - framework for fast loading and fully responsive CSS
 
-To run the project:
+## Installation
 
-1. Clone this repository
-2. Run `npm install`
-3. Run `npm start`
+Make sure to have [git](https://git-scm.com/downloads) and [node](https://nodejs.org/en/) installed, then run:
+
+```bash
+git clone https://github.com/ale917k/robofriend
+cd ./robofriend
+npm install
+npm start
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
